@@ -90,7 +90,7 @@ const WorkWindow = () => {
         fontFamily: "'anime kids', sans-serif",
       }}
     >
-      Download The <span style={{ color: "#FF1493" }}>Pie Presets For After effects</span>
+      Download The <span style={{ color: "#FF1493" }}>Pie CCs " Pie Presets " will be here soon For After effects</span>
     </div>
   </div>
 
