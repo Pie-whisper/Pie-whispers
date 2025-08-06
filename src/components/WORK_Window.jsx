@@ -67,7 +67,7 @@ const WorkWindow = () => {
   alt="Pie Presets"
   onClick={() =>
     window.open(
-      "https://drive.google.com/file/d/1L6ZHNwM6Ur-Q2FhT1EqCDFM-smyPiwTZ/view?usp=sharing",
+      "https://drive.google.com/file/d/1Wodp6VmhAeaAEi1dXCHGdzLQdmkHVQOG/view?usp=sharing",
       "_blank"
     )
   }
