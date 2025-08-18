@@ -14,7 +14,7 @@ const LinkWindow = ({ isVisible, onClose }) => {
     ],
 
     instagram: [
-      { label: "Instagram", url: "https://www.instagram.com/pie__pet/" },
+      { label: "Instagram", url: "https://www.instagram.com/pie_whispers/" },
     ],
     discord: [
       { label: "Coming Soon! Perhaps Never 😸", url: "#" }, // Placeholder
