@@ -155,7 +155,7 @@ const AboutWindow = () => {
   I’m deep into edits, building websites that feel alive, and exploring the AI world like it’s mine to bend. I’ve worked with everything — Figma, After Effects, Android Studio, even stuff most teens haven’t heard of yet. <br /><br />
   This isn’t a hobby. It’s my obsession. While most scroll, I’m sketching. While most chill, I’m crafting. <br /><br />
   I don’t wait for perfect moments. I make them. I’m building my future like it’s already mine. <br /><br />
-  So look around. This site? This isn’t a portfolio. It’s a **preview** of what I’m becoming. You’re stepping inside my **mind**, my **grind**, my **world** but i want some peace perhaps I'll get it when time's right 😸 but don't worry tho when they sleep I'll doing something
+  So look around. This site? This isn’t a portfolio. It’s a **preview** of what I’m becoming. You’re stepping inside my **mind**, my **grind**, my **world** but i want some peace perhaps I'll get it when time's right 😸 but don't worry tho when they sleep I'll be doing something
   </p>
   </div>
 
