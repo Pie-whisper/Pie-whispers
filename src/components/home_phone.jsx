@@ -74,10 +74,10 @@ React.useEffect(() => {
 
   return (
     <div style={{ width: "100vw", height: "100vh", overflow: "hidden", position: "relative" }}>
-      {/* 🌠 Dynamic Wallpaper: mp4 or jpg */}
-     {useImage || jpgWallpapers.includes(wallpaperIndex) ? (
+      {/* 🌠 Dynamic Wallpaper: mp4 or webp */}
+{useImage || jpgWallpapers.includes(wallpaperIndex) ? (
   <img
-    src={`/wallpapers/phone${wallpaperIndex}.jpg`}
+    src={`/wallpapers/phone${wallpaperIndex}.webp`}  // ✅ switched to .webp
     alt="Wallpaper"
     style={{
       position: "absolute",
@@ -87,6 +87,10 @@ React.useEffect(() => {
       height: "100%",
       objectFit: "cover",
       zIndex: 0,
+    }}
+    onError={(e) => { 
+      // fallback if .webp doesn’t exist
+      e.currentTarget.src = `/wallpapers/phone${wallpaperIndex}.jpg`; 
     }}
   />
 ) : (
