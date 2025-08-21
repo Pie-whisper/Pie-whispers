@@ -191,7 +191,7 @@ React.useEffect(() => {
     textShadow: "0 0 0.6vw #ff0095ff",
     marginTop: "-2vw",
   }}>
-    I'm 16 years old but still Don't know what to code 😸✨
+    😸✨
   </p>
 </div>
 
