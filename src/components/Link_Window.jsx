@@ -8,7 +8,7 @@ const LinkWindow = ({ isVisible, onClose }) => {
 
   const links = {
     youtube: [
-      { label: "My Edits 😸❤️", url: "https://www.youtube.com/@Queen_Pie_whispers-pie/shorts" },
+      { label: "My Edits 😸❤️", url: "https://www.youtube.com/@Editzwhisper" },
       { label: "My learnings 🥸🎀", url: "https://www.youtube.com/@FabulousPie_2211" },
       { label:  " My tiktok 😸", url: "https://www.tiktok.com/@pie__pet"}  
     ],
