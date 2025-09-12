@@ -9,7 +9,7 @@ function App() {
   const homeRef = useRef(null);
   const [isMobile, setIsMobile] = useState(false);
 
-  // ✅ Detect screen size and switch
+  // Detect screen size and switch
   useEffect(() => {
     const checkDevice = () => {
       setIsMobile(window.innerWidth <= 768);
@@ -20,7 +20,7 @@ function App() {
     return () => window.removeEventListener('resize', checkDevice);
   }, []);
 
-  // ✅ GSAP entry animation
+  // GSAP entry animation
   useEffect(() => {
     if (homeRef.current) {
       gsap.fromTo(
